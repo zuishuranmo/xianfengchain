@@ -8,7 +8,7 @@ import (
 func main()  {
 	fmt.Println("hello word")
 
-	block := chain.CreateGenesisBlock([]byte{})
+	block := chain.CreateGenesisBlock([]byte(string("第一个区块")))
 	fmt.Println(block)
 
 }
